@@ -1,0 +1,50 @@
+.card {
+    border: none;
+}
+table, td {
+    border: solid 1px #000000;
+}
+.lazy-bg-size {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+.no-warping h1, .no-warping h2, .no-warping h3, .no-warping h4, .no-warping h5, .no-warping h6, .no-warping p {
+    margin-bottom: 0em;
+}
+.no-warping p {
+    font-size: .8em;
+}
+.card-img-overlay {
+    bottom: 35%;
+    margin: 0;
+    padding: 2px;
+text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+.card-img-overlay p {
+    margin-bottom: 0;
+}
+.normal-state {
+    background-color: #808080bf;
+}
+.danger-state {
+    background-color: #f44336bf;
+}
+.setting {
+    position: fixed;
+    align-content: center;
+    padding: 50px;
+    z-index: 1;
+    top: 50%;
+    left: 20%;
+    opacity: .5;
+}
+.setting:hover {
+    opacity: 1;
+}

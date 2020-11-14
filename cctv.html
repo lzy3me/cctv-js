@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CCTV Screen Demo</title>
+    <!-- ====== Stylesheet ====== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body style="overflow-x: hidden">
+    <div class="container-fluid">
+        <!-- Start Grid -->
+        <div class="row" id="div-status">
+        </div>
+        <!-- Grid End -->
+    </div>
+    <div class="setting">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="listgrid">Show total</label>
+            </div>
+            <select name="list" class="custom-select" id="listgrid" onchange="listTable(this.value)">
+                <option value="2,2" selected>4</option>
+                <option value="2,4">8</option>
+                <option value="3,4">12</option>
+                <option value="4,4">16</option>
+                <option value="4,6">24</option>
+                <option value="6,6">36</option>
+                <option value="6,8">48</option>
+                <option value="8,8">64</option>
+                <option value="6,12">72</option>
+                <option value="12,12">144(Unstyled)</option>
+            </select>
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="listgrid">Screen</label>
+            </div>
+        </div>
+    </div>
+    <!-- ======= Script ======= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1ddae515d7.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
